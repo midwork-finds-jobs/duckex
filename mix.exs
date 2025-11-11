@@ -23,6 +23,7 @@ defmodule Duckex.MixProject do
     [
       {:db_connection, "~> 2.8"},
       {:rustler, "~> 0.37"},
+      {:jason, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: [:dev], runtime: false},
       {:credo, ">= 0.0.0", only: [:dev], runtime: false},
       {:dialyxir, ">= 0.0.0", only: [:dev], runtime: false}
